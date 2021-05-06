@@ -1,0 +1,102 @@
+/* CSS reset */
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../barbell.jpg);
+  color: white;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  /* border: 2px solid red; */
+}
+.left div {
+  text-align: center;
+}
+.left img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.mid {
+  /* border: 2px solid red; */
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  /* border: 2px solid red; */
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a,
+.right a {
+  color: white;
+  text-decoration: none;
+  padding: 30px 10px;
+}
+
+.right a:hover {
+  color: gray;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: rgb(193, 255, 47);
+  width: 40%;
+  margin: 15px auto;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 8px;
+  border: 2px solid green;
+  display: block;
+}
+.btn:hover {
+  background-color: green;
+}
+
+.form-group input {
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin: 8px auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.container {
+  border: 2px solid yellow;
+  width: 40%;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 40px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  border-color: white;
+}
+.container h1 {
+  text-align: center;
+}
